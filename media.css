@@ -1,0 +1,489 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0px;
+}
+body{
+    width: 100%;
+}
+
+.header,.why-autono{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    padding-bottom: 500px;
+    width: 100%;
+}
+.header1{
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding-bottom: 80px;
+}
+.car img{
+    align-items: center;
+}
+.background-black button{
+    padding: 10px;
+    margin: 30px 1%;
+}
+.main-footer{
+    padding: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.car img:hover{
+    transform: rotateY(180deg);
+}
+.input{
+    width: 50%;
+}
+.car{
+    margin: 10px 10%;
+}
+
+
+@media (min-width:200px) and (max-width:799px){
+    h1{
+        color:rgb(5, 15, 25);
+        font-size: 55px;
+        text-align: center;
+        padding: 30px;
+    }
+    .nav ul{
+        margin: 0px;
+        padding: 0px;
+        width: 100%; 
+    }
+    .nav ul li{
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .buttons button{
+        font-size: 30px;
+        background-color: rgb(165, 243, 243);
+        border: none;
+    }
+    .main-content{
+        width: 60%;
+        font-size: 40px;
+        text-align: center;
+        margin: 50px auto;
+    }
+    .content{
+        font-size: 25px;
+        color: rgb(42, 41, 41);
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        margin-top: -20px;
+    }
+    .vision{
+        font-size: 35px;
+        text-align: center;
+        padding: 20px 40px;
+        color:brown ;
+    }
+    .about{
+        font-size: 30px;
+        text-align: center;
+    }
+    .para,.para1,.para2{
+        padding: 30px;
+        font-size: 30px;
+        margin-top: 30px;
+        width:90%;
+        text-align: justify;
+    }
+    .services{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .driving{
+        font-size: 30px;
+        text-align: center;
+        color: darkblue;
+    }
+    .clock img{
+        margin: 2px 20%;
+    }
+    .real,.perception-enabled{
+        font-size: 28px;
+    }
+    .background-black{
+        background-color: black;
+        color: white;
+        width: 70%;
+        text-align: center;
+        border-radius: 1em;
+    }
+    .why-autono p{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .data img{
+        width: 100%;
+    }
+    .numbers{
+        background-color: rgba(0,0,0,0.6);
+        color: white;
+        text-align: center;
+    }
+    .industry{
+        color: white;
+        text-align: center;
+    }
+    .logos img{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    .total-industry{
+        background-color: black;
+    }
+    .footer{
+        font-size: 20px;
+        color: gray;
+        text-align: center;
+    }
+    .footer p{
+        margin-top: 20px;
+    }
+    h5{
+        font-size: 28px;
+        text-align: center;
+    }
+    .footer-images p{
+        text-align: center;
+    }
+    .f-images{
+        margin:20px 34%;
+    }
+
+}
+
+@media (min-width:800px) and (max-width:999px){
+    h1{
+        text-align: center;
+        padding: 100px;
+        color: rgb(38, 8, 67);
+        font-size: 60px;
+    }
+    .nav ul{
+        width: 100%;
+        padding: 0px 50px;
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        font-size: 40px;  
+    }
+    .buttons{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .buttons button{
+        padding: 6px;
+        font-size: 30px;
+        color: white;
+        background-color: rgb(91, 114, 114);
+    }
+    .main-content{
+        font-size: 55px;
+        text-align: center;
+        margin: 30px auto;
+        color: rgb(11, 9, 22);
+        padding-top: 100px;
+    }
+    .content{
+        font-size: 25px;
+        color: black;
+        text-align: center;
+    }
+    .vision{
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    .about{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding: 30px;
+    }
+    .para{
+        font-size: 28px;
+        padding: 20px;
+        text-align: justify;
+    }
+    .service,.driving{
+        width:80%;
+        font-size: 38px;
+        margin:60px 40px;
+    }
+    .data img{
+        width: 100%;
+    }
+    .clock img{
+        width: 30%;
+        height: 100%;
+        margin-top: 10%;
+    }
+    .information{
+        width:90%;
+        margin-top: 80px;
+        margin-left: 30px;
+        font-size: 30px;
+        text-align: justify;
+    }
+    .clock img,.information{
+        float: left;
+    }
+    .enabled{
+        margin:10px 20%;
+        text-align: justify;
+        font-size: 28px;
+    }
+    .background-black{
+        color: white;
+        width:50%;
+        text-align: center;
+        background-color: black;
+        border-radius: 1em;
+    }
+    .background-black p{
+        font-size: 30px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .numbers{
+        color: white;
+        text-align: center;
+        font-size: 80px;
+        margin-top: 100px;
+        background-color: rgba(0,0,0,0.6);
+    }
+    .industry{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 40px;
+        font-size: 30px;
+    }
+    .logo,.logo1{
+        display: flex;
+        margin: 5% 20%;
+        gap: 40%;
+    }
+    .main-footer p{
+        margin-top: 10px;
+    }
+    .footer1{
+        display: flex;
+        font-size: 30px;
+        margin: 10px 12%;
+        gap: 20%;
+    }
+    .footer2,.footer-images{
+        font-size: 30px;
+        text-align: center; 
+    }
+    h5{
+        font-size: 28px;
+        text-align: center;
+    } 
+
+} 
+
+@media (min-width:1000px){
+    h1{
+        font-size: 60px;
+        color: rgb(55, 18, 55);
+    }
+    .nav ul{
+        display: flex;
+        list-style: none;
+    }
+    .nav ul li{
+        margin-right: 20px;
+        font-size: 30px;
+        margin-top: 4px;
+    }
+    .buttons button{
+        font-size: 30px;
+        padding: 4px;
+    }
+    .total-nav{
+       display: flex;
+        margin-top: 10px;
+    }
+    .total-head{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+    }
+    .main-content{
+        width: 50%;
+        font-size: 60px;
+        text-align: center;
+        margin: 80px auto;
+    }
+    .content{
+        font-size: 23px;
+        color: rgb(50, 50, 50);
+        text-align: center;
+        margin-top: -60px;
+    }
+    .header1{
+        padding: 40px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .vision{
+        margin-bottom: 20px;
+        color: white;
+    }
+    .service,.text,.information{
+        margin:100px 100px;
+        font-size: 30px;
+        text-align: justify;   
+    }
+    .para{
+        margin-top: 30px;
+    }
+    .clock-information{
+        display: flex;
+        justify-content: space-between;
+    }
+    .clock{
+        padding-left: 10%;
+    }
+    .car img{
+        width: 100%;
+    }
+    .information{
+        width:40%;
+        font-size: 30px;
+        margin-left: -15%;
+        margin-top: 40px;
+    }
+    .peception{
+        display: flex;
+    }
+    .enabled{
+        font-size: 30px;
+        width:40%;
+        text-align: justify;
+        margin: 10px 10%;
+    }
+    .background-black p{
+        margin-top: 20px;
+    }
+    .background-black{
+        background-color: rgb(42, 42, 61);
+        border-radius: 2em;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    .employees,.capital {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+    .numbers p{
+        font-size: 40px;
+        padding-left: 150px;
+        /* margin-right: 100px; */
+        color: white;
+    }
+    .data{
+        display: flex;
+        margin-top: 200px;
+        
+    }
+    .data img{
+        width: 40%;
+    }
+
+    .numbers{
+        background-color: rgba(0,0,0,0.6);
+        width: 60%;
+    }
+    .industry{
+        font-size: 30px;
+        display: flex;
+        width: 100%;
+        padding-bottom: 60px;
+    }
+    .main-column{
+        display: flex;
+        width:100%;
+        text-align: center;
+        justify-content: space-between;
+    }
+    .column1{
+        width:50%;
+    }
+    .service{
+        text-align: center;
+    }
+    .logo,.logo1{
+        display: flex;
+    }
+    .logos{
+        width:40%;
+        margin-top: 40px;
+    }
+    .logo,.logo1{
+        justify-content: space-between;
+        margin-right: 80px;
+        margin-top: 60px;
+    }
+    .total-industry{
+        background-color: black;
+        color: white;
+    }
+    .footer1{
+        display: flex;
+        font-size: 20px;
+        margin: 20px 10%;
+        gap:60%;
+    }
+    .footer2{
+        margin: 20px 10%;
+    }
+    .footer{
+        display: flex;
+        font-size: 20px;
+        gap:10%;
+    }
+    .footer p{
+        margin-top: 30px;
+        color: gray;
+    }
+    h5{
+        font-size:28px;
+        margin: 20px 10%;
+    }
+    .wix{
+        margin: 20px 10%;
+        font-size: 20px;
+        color: gray;
+    }
+    .footer-images{
+        display: flex;
+        width: 100%;
+        gap:50%;
+        padding-left: 10%;
+    }
+
+    
+}
